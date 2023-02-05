@@ -69,21 +69,4 @@ MONGODB_URI = mongodb://mongo:27017
 docker-compose up -d
 ```
 4. Navigate to `http://localhost:3000` to see the app live
-5. Monitor the data dumped into MongoDB by navigating to `http://localhost:8081` thanks to [mongo-express](https://github.com/mongo-express/mongo-express)
-
-### Resources
-
-1. https://demos.creative-tim.com/argon-design-system/#/presentation
-2. https://developers.google.com/youtube/v3
-
-### Contributing
-
-Found a bug/want to request a feature? Thanks! Just follow the steps below:
-
-1. File an issue with appropriate tags
-2. Fork this repo
-3. Make changes to a feature branch
-`git checkout -b <issue-#>`
-4. Once done, run `npm run commit`
-5. Make sure you `sync up` the branch with the upstream master
-6. Raise a PR for review
+5. Monitor the data dumped into MongoDB by navigating to `http://localhost:8081`
